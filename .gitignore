@@ -1,0 +1,97 @@
+# Maven / Gradle build folders
+/target/
+/build/
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Ignore all target/build folders inside src except for source files
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Spring Boot specific
+spring.log
+spring.pid
+
+# Environment files (if any)
+.env
+.env.*
+
+# Sensitive files or config that shouldn't be in VCS
+application*.yml
+application*.properties
+
+# JRebel
+.rebel.xml
+
+# Other IDEs and tools
+.vagrant/
+.idea/
+*.iml
+
+# Java compiled classes
+*.class
+
+# Generated jar files
+*.jar
+*.war
+*.ear
+
+# Coverage reports
+coverage/
+*.lcov
+*.clover
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Static assets build folders (if applicable)
+dist/
+public/
+
+# Others
+*.bak
+*.orig
+*.rej
